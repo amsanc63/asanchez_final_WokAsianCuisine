@@ -89,7 +89,6 @@ main {
   padding: 80px;
   width: 100%;
   box-shadow: 0 0 20px rgba(191, 213, 210, 0.1);
-  text-shadow: -1px 0 black, 0 px black, 1px 0 black, 0 -1px black;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -108,13 +107,11 @@ h2 {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: bold;
   color:#f5f1fb;
-  text-shadow: -1px 0 black, 0 px black, 1px 0 black, 0 -1px black;
 }
 
 h2 {
   font-size: 50px;
   color: #ffffff;
-  text-shadow: -1px 0 black, 0 px black, 1px 0 black, 0 -1px black;
 }
 
 h3 {
