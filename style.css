@@ -34,6 +34,10 @@ h1 {
   line-height: 1.2;
   color: #f7f1ea;
 }
+p {
+  font-family: Calibri;
+  font-size: 20px;
+}
 
 /* Navigation Styles */
 
@@ -226,4 +230,5 @@ footer {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  clear: both;
 }
