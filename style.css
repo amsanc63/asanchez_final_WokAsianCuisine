@@ -158,59 +158,6 @@ main {
     border-radius: 4px;
   }
 
-  /* Contact Page */
-
-  .form-container {
-    max-width: 600px;
-    margin: 5 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    padding: 26px;
-  }
-  .form-container label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  .form-container input[type="text"],
-  .form-container input[type="tel"],
-  .form-container input[type="email"],
-  .form-container textarea {
-    width: 100%;
-    padding: 7px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-  .form-container select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-  .form-container input[type="radio"] {
-    margin-right: 10px;
-  }
-  .form-container button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-  }
-  .form-container button[type="submit"]:hover {
-    background-color: #3e8e41;
-  }
 
 /* Footer */
 footer {
