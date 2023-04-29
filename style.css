@@ -220,7 +220,16 @@ label {
 textarea {
   resize: vertical;
 }
-
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+}
+.contact img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Footer */
 footer {
