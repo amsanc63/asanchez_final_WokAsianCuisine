@@ -1,15 +1,18 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #000000;
-  color: #333;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&family=Knewave&family=Patrick+Hand&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+    line-height: 1.5;
+    background-color: #000000;
+    color: #333;
+    width: 1280px;
+    margin: 0 auto;
+  }
 
 img {
   max-width: 100%;
@@ -26,8 +29,8 @@ header {
 
 h1 {
   margin: 0;
-  font-family: "Cookie", cursive;
-  font-size: 48px;
+  font-family: 'Knewave', cursive;
+  font-size: 62px;
   line-height: 1.2;
   color: #f7f1ea;
 }
@@ -41,7 +44,7 @@ nav {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -100,23 +103,23 @@ section {
   padding: 20px;
 }
 
-h2,
-h3 {
+h2 {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: bold;
   color:#f5f1fb;
   text-shadow: -1px 0 black, 0 px black, 1px 0 black, 0 -1px black;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 50px;
   color: #ffffff;
   text-shadow: -1px 0 black, 0 px black, 1px 0 black, 0 -1px black;
 }
 
 h3 {
-  font-size: 24px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 36px;
   color: #f7f1ea;
 }
 
