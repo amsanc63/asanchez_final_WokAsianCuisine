@@ -1,0 +1,233 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  }
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #c77d5e;
+}
+
+/* Hero Image */
+#hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  header-img.png
+  main img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+
+  main h2, main h3, main p {
+    text-align: center;
+    margin: 0;
+  }
+
+  /* Sections */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem;
+  }
+
+  section img {
+    width: 100%;
+    max-height auto;
+    align-items: stretch;
+  }
+
+  section h2, section h3, section p, section img {
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .local-cuisine{
+    flex: 1; 
+  }
+  .chef-section {
+    flex: 0 1; 
+  }
+
+  #modern-fusion {
+    align-self: stretch;
+    border: 0px;
+    background-color:  ;
+
+  }
+
+  /* Content Section */
+  .local-cuisine {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px;
+    border-radius: 4px;
+  }
+
+  /* Chef Ly Section */
+  .chef-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px;
+    border-radius: 4px;
+  }
+
+  /* Contact Page */
+
+  .form-container {
+    max-width: 600px;
+    margin: 5 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 26px;
+  }
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .form-container input[type="text"],
+  .form-container input[type="tel"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .form-container input[type="radio"] {
+    margin-right: 10px;
+  }
+  .form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  .form-container button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+footer a {
+    color: #c77d5e;
+    text-decoration: none;
+}
+
